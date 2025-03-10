@@ -7,20 +7,19 @@
       "id": "section1",
       "title": "Introduction",
       "text": "This is the introduction section of our content. It can be a longer paragraph that explains the purpose of this content and provides context for the user.",
-      "imageUrl": "https://yourusername.github.io/your-repo/images/1.png"
+      "imageUrl": "https://ghbrooks.github.io/yellow_card_json/images/1.png"
     },
     {
       "id": "section2",
       "title": "Main Content",
       "text": "This is the main content section. You can include more detailed information here. This text can be as long as needed to convey your message effectively.",
-      "imageUrl": "https://yourusername.github.io/your-repo/images/2.gif
-    "
+      "imageUrl": "https://ghbrooks.github.io/yellow_card_json/images/2.gif"
     },
     {
       "id": "section3",
       "title": "Additional Information",
       "text": "This section provides additional information that might be helpful for users. You can structure the content in multiple sections to make it easier to read and understand.",
-      "imageUrl": "https://yourusername.github.io/your-repo/images/3.png"
+      "imageUrl": "https://ghbrooks.github.io/yellow_card_json/images/3.png"
     }
   ]
 }
