@@ -1,26 +1,236 @@
 {
-  "title": "App Content Title",
-  "subtitle": "This is a subtitle that describes what this app is about",
-  "lastUpdated": "2025-03-06T14:30:00Z",
+  "title": "Safeguarding Code of Conduct for Adults",
+  "tagline": "In Scouts, the welfare of children and young people is our priority. Everyone has a duty to report safeguarding concerns, and all adults must follow this Safeguarding Code of Conduct.",
+  "motto": [
+    { "text": "Children and young people first.", "isBold": true },
+    { "text": "If in doubt, report it.", "isBold": true }
+  ],
+  "moreInfo": {
+    "link": "scouts.org.uk/safeguarding"
+  },
   "sections": [
     {
-      "id": "section1",
-      "title": "Introduction",
-      "text": "This is the introduction section of our content. It can be a longer paragraph that explains the purpose of this content and provides context for the user.",
-      "imageUrl": "https://yourusername.github.io/your-repo/images/1.png"
+      "title": "If a child or young person tells you about a concern",
+      "steps": [
+        {
+          "text": "Allow them to speak without interruption, and accept what they say.",
+          "boldText": []
+        },
+        {
+          "text": "Be understanding and reassuring, but do not give your opinion.",
+          "boldText": []
+        },
+        {
+          "text": "Tell them you will try to help but must pass the information on.",
+          "boldText": []
+        },
+        {
+          "text": "Write careful notes of what was said using the actual words used. Don't ask leading questions or try to find out whether the concern is justified.",
+          "boldText": []
+        },
+        {
+          "text": "Make sure that Scout activities do not cause further risk to their welfare.",
+          "boldText": []
+        },
+        {
+          "text": "Contact the Safeguarding Team.",
+          "boldText": ["Safeguarding Team"]
+        }
+      ]
     },
     {
-      "id": "section2",
-      "title": "Main Content",
-      "text": "This is the main content section. You can include more detailed information here. This text can be as long as needed to convey your message effectively.",
-      "imageUrl": "https://yourusername.github.io/your-repo/images/2.gif
-    "
+      "title": "If you are concerned about the welfare of a child or young person",
+      "subtitle": "or if there is a concern, complaint or allegation, about you or another adult, inside or outside of Scouts, you must do the following.",
+      "steps": [
+        {
+          "text": "Write careful notes of what was said using the actual words used.",
+          "boldText": []
+        },
+        {
+          "text": "Do not ask leading questions or try to find out whether the concern is justified.",
+          "boldText": []
+        },
+        {
+          "text": "Make sure that Scouting does not cause further risk to your or their welfare.",
+          "boldText": []
+        },
+        {
+          "text": "Contact the Safeguarding Team.",
+          "boldText": ["Safeguarding Team"]
+        }
+      ]
     },
     {
-      "id": "section3",
-      "title": "Additional Information",
-      "text": "This section provides additional information that might be helpful for users. You can structure the content in multiple sections to make it easier to read and understand.",
-      "imageUrl": "https://yourusername.github.io/your-repo/images/3.png"
+      "title": "Procedure for reporting safeguarding concerns",
+      "steps": [
+        {
+          "title": "Gather the necessary information",
+          "details": [
+            {
+              "text": "Make sure that you have the name, date of birth, address and phone number of each person involved with the concern.",
+              "boldText": []
+            },
+            {
+              "text": "Find out when the people involved will next be at a Scout meeting or activity.",
+              "boldText": []
+            }
+          ]
+        },
+        {
+          "title": "Contact the Safeguarding Team",
+          "details": [
+            {
+              "text": "Use the reporting form on the Scouts website to report the concern to the Safeguarding Team. Include as much information as possible.",
+              "boldText": []
+            },
+            {
+              "text": "If you can't fill in the form online, call [[+44(0)20 8433 7164]] (9am to 5pm, Monday to Friday) or email [[safeguarding@scouts.org.uk]]",
+              "boldText": ["+44(0)20 8433 7164", "safeguarding@scouts.org.uk"]
+            },
+            {
+              "text": "In an emergency outside the above times, you can contact the Safeguarding Team by calling the Scouts Support Centre on [[+44(0)345 300 1818]].",
+              "boldText": ["+44(0)345 300 1818"]
+            },
+            {
+              "text": "Follow the Safeguarding Team's advice and take no further action unless they tell you to.",
+              "boldText": []
+            },
+            {
+              "text": "Ask questions if you're not sure what to do.",
+              "boldText": []
+            }
+          ]
+        }
+      ],
+      "additionalNote": {
+        "text": "It is your duty to report all safeguarding concerns, whether you are told about them directly or indirectly, as soon as possible ([[always within 24 hours]]). If you are not sure what to do, or you are not sure if a concern has been reported, contact the Safeguarding Team.",
+        "boldText": ["always within 24 hours"]
+      }
+    },
+    {
+      "title": "Emergency Contacts",
+      "notes": [
+        {
+          "text": "If a child or young person is at immediate risk of harm, call [[999 or 112]] and ask for the police. Tell the Safeguarding Team you have done this.",
+          "isEmergency": true,
+          "boldText": ["999 or 112"]
+        },
+        {
+          "text": "You can also call the NSPCC on [[0808 800 5000]] or email them at [[help@nspcc.org.uk]]",
+          "isEmergency": false,
+          "boldText": ["0808 800 5000", "help@nspcc.org.uk"]
+        }
+      ]
+    },
+    {
+      "title": "Code of conduct",
+      "behaviors": {
+        "do": [
+          {
+            "text": "Remember that you are a role model at all times, inside and outside of Scouts. You [[must]] set a good example for others to follow.",
+            "boldText": ["must"]
+          },
+          {
+            "text": "Treat everyone with dignity and respect in line with the Scout Values.",
+            "boldText": []
+          },
+          {
+            "text": "Treat all young people equally – do not show favouritism",
+            "boldText": []
+          },
+          {
+            "text": "Follow the adult-to-young-people ratios at all times.",
+            "boldText": []
+          },
+          {
+            "text": "Remember that you have been placed in a [[position of trust]] – do not abuse this trust.",
+            "boldText": ["position of trust"]
+          },
+          {
+            "text": "Report all safeguarding concerns directly to the Safeguarding Team as soon as possible, and [[always within 24 hours]]",
+            "boldText": ["always within 24 hours"]
+          },
+          {
+            "text": "Contact the Safeguarding Team if you receive details of any statutory agency (for example, the police, the Local Authority Designated Officer (LADO) or children's services) involvement regarding a member.",
+            "boldText": []
+          },
+          {
+            "text": "Remember that someone may misinterpret your actions.",
+            "boldText": []
+          },
+          {
+            "text": "Respect children's and young people's right to personal privacy.",
+            "boldText": []
+          },
+          {
+            "text": "Act within appropriate boundaries, even in difficult circumstances.",
+            "boldText": []
+          },
+          {
+            "text": "Encourage an open and transparent culture, where people challenge or report behaviour that is not in line with this code.",
+            "boldText": []
+          },
+          {
+            "text": "Make everyone aware of our safeguarding arrangements. Share our [[Yellow Card]] with volunteers, parents and guardians, and display it where meetings take place.",
+            "boldText": ["Yellow Card"]
+          },
+          {
+            "text": "Create an environment where children and young people feel safe and able to voice their concerns.",
+            "boldText": []
+          },
+          {
+            "text": "Have separate sleeping accommodation for young people and adults, as well as young leaders working with a younger section.",
+            "boldText": []
+          },
+          {
+            "text": "Plan activities that involve more than one other person being present. If that's not possible, make sure other people can see and hear what's going on.",
+            "boldText": []
+          }
+        ],
+        "doNot": [
+          {
+            "text": "Plan to be alone with a child or young person in Scouts, either online or in person.",
+            "boldText": []
+          },
+          {
+            "text": "Drink alcohol when you are directly responsible for children and young people in Scouts, and [[never allow under 18s]] to drink alcohol on Scout activities",
+            "boldText": ["never allow under 18s"]
+          },
+          { "text": "Trivialise concerns or abuse.", "boldText": [] },
+          {
+            "text": "Let concerns or abuse go unreported. Contact the Safeguarding Team, especially if you feel your concern has not been taken seriously.",
+            "boldText": []
+          },
+          {
+            "text": "Join in physical contact games with children and young people.",
+            "boldText": []
+          },
+          {
+            "text": "Overstep the boundaries with children and young people by being involved in friendships or personal relationships with them.",
+            "boldText": []
+          },
+          {
+            "text": "Allow activities that encourage bullying behaviour, including initiation ceremonies, dares or forfeits.",
+            "boldText": []
+          },
+          {
+            "text": "Use inappropriate, suggestive or threatening language, whether verbal, written or online.",
+            "boldText": []
+          },
+          {
+            "text": "Rely on your reputation or position to protect you.",
+            "boldText": []
+          },
+          {
+            "text": "Get involved with a safeguarding concern if you have a personal friendship or family connection with those involved. Step back and tell the Safeguarding Team about the connection.",
+            "boldText": []
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "metaData": {
+    "version": "8",
+    "lastUpdated": "1st January 2024"
+  }
 }
