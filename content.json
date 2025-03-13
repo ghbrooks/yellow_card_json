@@ -1,7 +1,7 @@
 // JSON structure for Scout Safeguarding Document
 // To be used with React Native Paper
 
-const scoutSafeguardingDocument = {
+{
   metadata: {
     title: "Safeguarding Code of Conduct for Adults",
     version: "8. 1st January 2024",
