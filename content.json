@@ -1,42 +1,110 @@
-{
-  "title": "Safeguarding Code of Conduct for Adults",
-  "tagline": "In Scouts, the welfare of children and young people is our priority. Everyone has a duty to report safeguarding concerns, and all adults must follow this Safeguarding Code of Conduct.",
-  "motto": "Children and young people first. If in doubt, report it.",
-  "moreInfo": "scouts.org.uk/safeguarding",
-  "content": [
+// JSON structure for Scout Safeguarding Document
+// To be used with React Native Paper
+
+const scoutSafeguardingDocument = {
+  metadata: {
+    title: "Safeguarding Code of Conduct for Adults",
+    version: "8. 1st January 2024",
+    website: "scouts.org.uk/safeguarding"
+  },
+  headerSection: {
+    type: "header",
+    backgroundColor: "#ffde00", // Yellow background color
+    content: [
+      {
+        type: "text",
+        text: "Safeguarding",
+        style: { fontWeight: "bold", fontSize: 24 }
+      },
+      {
+        type: "text",
+        text: "Code of Conduct for Adults",
+        style: { fontSize: 18 }
+      },
+      {
+        type: "text",
+        text: "In Scouts, the welfare of children and young people is our priority. Everyone has a duty to report safeguarding concerns, and all adults must follow this Safeguarding Code of Conduct."
+      },
+      {
+        type: "text",
+        text: "Children and young people first. If in doubt, report it.",
+        style: { fontWeight: "bold" }
+      },
+      {
+        type: "text",
+        text: "Find out more at scouts.org.uk/safeguarding"
+      }
+    ]
+  },
+  sections: [
     {
-      "title": "If a child or young person tells you about a concern, you must do the following.",
-      "items": [
-        "Allow them to speak without interruption, and accept what they say.",
-        "Be understanding and reassuring, but do not give your opinion.",
-        "Tell them you will try to help but must pass the information on.",
-        "Write careful notes of what was said using the actual words used. Don't ask leading questions or try to find out whether the concern is justified.",
-        "Make sure that Scout activities do not cause further risk to their welfare.",
-        "Contact the Safeguarding Team."
-      ]
-    },
-    {
-      "title": "If you are concerned about the welfare of a child or young person, or if there is a concern, complaint or allegation, about you or another adult, inside or outside of Scouts, you must do the following.",
-      "items": [
-        "Write careful notes of what was said using the actual words used.",
-        "Do not ask leading questions or try to find out whether the concern is justified.",
-        "Make sure that Scouting does not cause further risk to your or their welfare.",
-        "Contact the Safeguarding Team."
-      ]
-    },
-    {
-      "title": "Procedure for reporting safeguarding concerns",
-      "sections": [
+      type: "section",
+      title: "If a child or young person tells you about a concern, you must do the following.",
+      steps: [
         {
-          "title": "1. Gather the necessary information",
-          "items": [
+          number: 1,
+          text: "Allow them to speak without interruption, and accept what they say."
+        },
+        {
+          number: 2,
+          text: "Be understanding and reassuring, but do not give your opinion."
+        },
+        {
+          number: 3,
+          text: "Tell them you will try to help but must pass the information on."
+        },
+        {
+          number: 4,
+          text: "Write careful notes of what was said using the actual words used. Don't ask leading questions or try to find out whether the concern is justified."
+        },
+        {
+          number: 5,
+          text: "Make sure that Scout activities do not cause further risk to their welfare."
+        },
+        {
+          number: 6,
+          text: "Contact the Safeguarding Team."
+        }
+      ]
+    },
+    {
+      type: "section",
+      title: "If you are concerned about the welfare of a child or young person, or if there is a concern, complaint or allegation, about you or another adult, inside or outside of Scouts, you must do the following.",
+      steps: [
+        {
+          number: 1,
+          text: "Write careful notes of what was said using the actual words used."
+        },
+        {
+          number: 2,
+          text: "Do not ask leading questions or try to find out whether the concern is justified."
+        },
+        {
+          number: 3,
+          text: "Make sure that Scouting does not cause further risk to your or their welfare."
+        },
+        {
+          number: 4,
+          text: "Contact the Safeguarding Team."
+        }
+      ]
+    },
+    {
+      type: "section",
+      title: "Procedure for reporting safeguarding concerns",
+      steps: [
+        {
+          number: 1,
+          text: "Gather the necessary information",
+          bullets: [
             "Make sure that you have the name, date of birth, address and phone number of each person involved with the concern.",
             "Find out when the people involved will next be at a Scout meeting or activity."
           ]
         },
         {
-          "title": "2. Contact the Safeguarding Team",
-          "items": [
+          number: 2,
+          text: "Contact the Safeguarding Team",
+          bullets: [
             "Use the reporting form on the Scouts website to report the concern to the Safeguarding Team. Include as much information as possible.",
             "If you can't fill in the form online, call +44(0)20 8433 7164 (9am to 5pm, Monday to Friday) or email safeguarding@scouts.org.uk",
             "In an emergency outside the above times, you can contact the Safeguarding Team by calling the Scouts Support Centre on +44(0)345 300 1818.",
@@ -45,19 +113,36 @@
           ]
         }
       ],
-      "note": "It is your duty to report all safeguarding concerns, whether you are told about them directly or indirectly, as soon as possible (always within 24 hours). If you are not sure what to do, or you are not sure if a concern has been reported, contact the Safeguarding Team."
+      footer: {
+        type: "text",
+        text: "It is your duty to report all safeguarding concerns, whether you are told about them directly or indirectly, as soon as possible (always within 24 hours). If you are not sure what to do, or you are not sure if a concern has been reported, contact the Safeguarding Team.",
+        style: { fontWeight: "medium" }
+      }
     },
     {
-      "title": "Emergency",
-      "highlighted": true,
-      "items": [
-        "If a child or young person is at immediate risk of harm, call 999 or 112 and ask for the police. Tell the Safeguarding Team you have done this.",
-        "You can also call the NSPCC on 0808 800 5000 or email them at help@nspcc.org.uk"
+      type: "alert",
+      backgroundColor: "#ffde00", // Yellow background color
+      borderColor: "#000000",
+      content: [
+        {
+          type: "text",
+          text: "If a child or young person is at immediate risk of harm, call 999 or 112 and ask for the police.",
+          style: { fontWeight: "bold" }
+        },
+        {
+          type: "text",
+          text: "Tell the Safeguarding Team you have done this."
+        },
+        {
+          type: "text",
+          text: "You can also call the NSPCC on 0808 800 5000 or email them at help@nspcc.org.uk"
+        }
       ]
     },
     {
-      "title": "Code of conduct",
-      "items": [
+      type: "section",
+      title: "Code of conduct",
+      behavioursList: [
         "Do remember that you are a role model at all times, inside and outside of Scouts. You must set a good example for others to follow.",
         "Do treat everyone with dignity and respect in line with the Scout Values.",
         "Do treat all young people equally – do not show favouritism",
@@ -86,6 +171,25 @@
       ]
     }
   ],
-  "version": "8",
-  "lastUpdated": "1st January 2024"
-}
+  footer: {
+    type: "footer",
+    backgroundColor: "#ffde00", // Yellow background color
+    content: [
+      {
+        type: "text",
+        text: "scouts.org.uk/safeguarding"
+      },
+      {
+        type: "text",
+        text: "Version 8. 1st January 2024"
+      },
+      {
+        type: "image",
+        source: "crystal_mark_logo",
+        description: "Crystal Mark. 21734. Clarity Approved by Plain English Campaign"
+      }
+    ]
+  }
+};
+
+export default scoutSafeguardingDocument;
